@@ -1,0 +1,87 @@
+*{
+    padding: 0px;
+    margin:0px
+}
+#Principal{
+    width: 1055px;
+    margin:  0 auto;
+    color: black;
+    text-align: center;
+}
+#Cabecera{
+    position: sticky;
+    top: 0;
+    background-color: white;
+}
+#Cabecera h1{
+    font-size: 80px;
+}
+#Menu{
+    margin: 10px;
+    padding: 20px;
+}
+#Menu>ul{
+    display: flex;
+    list-style-type: none;
+    justify-content: center;
+}
+#Menu a{
+    padding: 5px 20px 5px 20px;
+    margin: 30px;
+    border: 1px solid;
+    border-radius: 20px;
+    text-decoration: none;
+    color:black;
+    font-size: 16px;
+    font-family: "Sedan SC", serif;
+}
+#Menu a:hover{
+    background-color: black;
+    color: white;
+}
+#Galeria{
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    padding-bottom: 20px;
+}
+figure{
+    text-align: center;
+    padding: 20px;
+}
+figure img{
+    max-height: 200px;
+    max-width: 250px;
+    height: 500px;
+    padding: 0px;
+    box-shadow: 7px 5px 10px 1px;
+}
+figcaption{
+    margin-top: 20px;
+    font-size: 20px;
+}
+#Imagenes a:hover{
+    opacity:60%;
+}
+#Imagenes a{
+    color: black;
+    text-decoration: none;
+    opacity:100px;
+}
+#Pie{
+    font-size: 30px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+#Final{
+    margin: 20px 15px 20px 15px;
+}
+#Final a:hover{
+    color: gray;
+}
+#Final a{
+    color: black;
+    text-decoration: none;
+}
+

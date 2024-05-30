@@ -1,0 +1,68 @@
+*{
+    padding: 0px;
+    margin:0px
+}
+body{
+    background-image: url(img/Cafeteria.jpg);
+    background-size: 100%;
+}
+#Principal{
+    color: white;
+    width: 800px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+#Titular h1{
+    font-size: 130px;
+}
+#Titular p{
+    color: white;
+    font-size: 25px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-family: "Bebas Neue", sans-serif;
+}
+#Menu{
+    font-size: 50px;
+    font-size: 15px;
+    padding: 40px;
+    padding-bottom: 200px;
+}
+#Menu>ul{
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    justify-content: space-evenly;
+}
+#Menu a{
+    padding: 5px 20px 5px 20px;
+    border: 1px solid;
+    border-radius: 20px;
+    text-decoration: none;
+    color:white;
+    font-size: 20px;
+    font-family: "Sedan SC", serif;
+}
+#Menu a:hover{
+    background-color: white;
+    color: black;
+}
+#Pie{
+    font-size: 30px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+#Final{
+    margin: 20px 15px 20px 15px;
+}
+#Final a:hover{
+    color: gray;
+}
+#Final a{
+    color: white;
+    text-decoration: none;
+}
